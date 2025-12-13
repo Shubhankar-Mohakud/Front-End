@@ -1,0 +1,37 @@
+/*----# id based selection-----*/
+
+#first{
+    background-color: antiquewhite;
+}
+
+#second{
+    background-color: pink;
+}
+
+/*====Class based selection====*/
+
+.third{
+    background-color: aquamarine;
+}
+
+.veg{
+    background-color: greenyellow;
+    font-style: oblique;
+}
+
+.non-veg{
+    background-color: rgba(220, 103, 127, 1);
+    font-style:italic
+}
+
+h1{
+    font-size: 50px;
+}
+
+ul{
+    font-size: 15px;
+}
+
+li{
+    font-size: 1em;
+}
