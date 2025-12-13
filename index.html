@@ -3,14 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning</title>
+    <title>Media Website</title>
 </head>
 <body>
-    <button>Hello</button>
-    <br />
-    <a 
-        href="https://www.youtube.com/" 
-        target="_blank"
-    >Link to YT</a>
+    <header>
+        <h1>This is our home page</h1>
+        <ul>
+            <li><a href="./nested-list.html">List</a></li>
+            <li><a href="./formProject.html">Form</a></li>
+            <li><a href="./tablehw.html">Table</a></li>
+            <li><a href="./table.html">TablePro</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <audio controls>
+            <source src="pepas.mp3" type="audio/mp3">
+            Your browser does not support the audio element
+        </audio>
+        <br><br>
+        <video controls height="315px" width="560px">
+            <source src="./video.mp4" type="video/mp4">
+            Your browser does not support the video element
+        </video>
+        <br><br>
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/RnBOOF502p0" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+        </iframe>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; All rights reserved</p>
+    </footer>
 </body>
 </html>
