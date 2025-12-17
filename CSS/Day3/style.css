@@ -1,0 +1,43 @@
+#japan-flag-border{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+}
+
+#japan-flag-center{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    margin: 0px;
+}
+
+#sweden-flag-border{
+    height: 200px;
+    width: 300px;
+    background-color: #006AA7;
+    position: relative;
+}
+
+#horizontle{
+    height: 20px;
+    width: 300px;
+    background-color: #FECC02;
+    position: absolute;
+    top: 90px;
+    box-sizing: border-box;
+}
+
+#verticle{
+    height: 200px;
+    width: 20px;
+    background-color: #FECC02;
+    position: absolute;
+    left: 30%;
+    box-sizing: border-box;
+}
