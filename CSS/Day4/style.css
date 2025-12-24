@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+
+.container{
+    background-color: antiquewhite;
+    padding: 5px;
+
+    display: flex;             /* enables centering text */
+    justify-content: center;   /* horizontal text centering */
+    align-items: center; 
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    display: flex;             /* enables centering text */
+    justify-content: center;   /* horizontal text centering */
+    align-items: center;   
+}
